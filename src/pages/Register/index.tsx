@@ -25,6 +25,8 @@ const Register: React.FC = () => {
                     status: 'success',
                     duration: 800,
                     isClosable: false,
+                    position: "top"
+
                 })
             );
 
@@ -36,6 +38,7 @@ const Register: React.FC = () => {
                     status: 'error',
                     duration: 800,
                     isClosable: false,
+                    position: "top"
                 })
             );
         }

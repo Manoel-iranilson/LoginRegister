@@ -21,6 +21,7 @@ const Login: React.FC = () => {
                     status: 'error',
                     duration: 1000,
                     isClosable: false,
+                    position: "top"
                 })
             )
         }
@@ -32,11 +33,12 @@ const Login: React.FC = () => {
         } else {
             return (
                 toast({
-                    title: 'Verifique os dados',
-                    description: "email ou senha invalidos",
+                    title: 'Usuario invalido',
+                    description: "Verifique o Email e a senha",
                     status: 'error',
                     duration: 1000,
                     isClosable: false,
+                    position: "top"
                 })
             )
         }
